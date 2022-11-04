@@ -1,13 +1,25 @@
 apiVersion: v1
 entries:
+  console:
+  - apiVersion: v2
+    appVersion: 1.17.0
+    created: "2022-11-04T14:00:38.90119-05:00"
+    description: A Helm chart for the Kubefirst Console
+    digest: 7ca45b6c97f4603353e293b65d06efcd2d9ebf83d439b76196246277384c18dd
+    name: console
+    type: application
+    urls:
+    - https://cristhianf7.github.io/helm-charts/console-1.0.4.tgz
+    version: 1.0.4
   helm-chart-test:
-  - apiVersion: v1
-    appVersion: "1.0"
-    created: 2019-04-16T11:10:08.729944+02:00
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2022-11-04T14:00:38.90155-05:00"
     description: A Helm chart for Kubernetes
-    digest: 35a4e31bfacc496f1b1bce664652916bb8701cc9df77f1b90534f5234ff297a6
+    digest: ab1ae981bc138409c530d671caee484672345d878c366d52a7e5e7a5d8328b3e
     name: helm-chart-test
+    type: application
     urls:
     - https://cristhianf7.github.io/helm-charts/helm-chart-test-0.1.0.tgz
     version: 0.1.0
-generated: 2019-04-16T11:10:08.729368+02:00
+generated: "2022-11-04T14:00:38.900741-05:00"
