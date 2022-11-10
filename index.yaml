@@ -3,7 +3,17 @@ entries:
   console:
   - apiVersion: v2
     appVersion: 1.17.0
-    created: "2022-11-07T10:37:37.171809-05:00"
+    created: "2022-11-10T12:05:16.386422-05:00"
+    description: A Helm chart for the Kubefirst Console
+    digest: 9f0b4da387f174906ecea87d9700411093a29c73439739a914467b8b3f80cc2c
+    name: console
+    type: application
+    urls:
+    - https://cristhianf7.github.io/helm-charts/console-1.0.6.tgz
+    version: 1.0.6
+  - apiVersion: v2
+    appVersion: 1.17.0
+    created: "2022-11-10T12:05:16.386047-05:00"
     description: A Helm chart for the Kubefirst Console
     digest: d1cb82a9f1ea5cd5ae5f07e0089a7d67db5d14345800eebe01c43c28e518b6e7
     name: console
@@ -13,7 +23,7 @@ entries:
     version: 1.0.5
   - apiVersion: v2
     appVersion: 1.17.0
-    created: "2022-11-07T10:37:37.171458-05:00"
+    created: "2022-11-10T12:05:16.385298-05:00"
     description: A Helm chart for the Kubefirst Console
     digest: 7ca45b6c97f4603353e293b65d06efcd2d9ebf83d439b76196246277384c18dd
     name: console
@@ -24,7 +34,7 @@ entries:
   helm-chart-test:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2022-11-07T10:37:37.172294-05:00"
+    created: "2022-11-10T12:05:16.386913-05:00"
     description: A Helm chart for Kubernetes
     digest: ab1ae981bc138409c530d671caee484672345d878c366d52a7e5e7a5d8328b3e
     name: helm-chart-test
@@ -32,4 +42,4 @@ entries:
     urls:
     - https://cristhianf7.github.io/helm-charts/helm-chart-test-0.1.0.tgz
     version: 0.1.0
-generated: "2022-11-07T10:37:37.170744-05:00"
+generated: "2022-11-10T12:05:16.383362-05:00"
