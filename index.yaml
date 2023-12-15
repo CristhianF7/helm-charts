@@ -3,9 +3,9 @@ entries:
   console:
   - apiVersion: v2
     appVersion: 2.1.0
-    created: "2023-12-15T11:03:03.987898-05:00"
+    created: "2023-12-15T12:22:42.439907-05:00"
     description: A Helm chart for the Kubefirst Console
-    digest: 29aecf1b591cdd36fabda823eb6620bf06bcab071dbeace051739ea5026f1137
+    digest: 95de1c45c0e4bd932821b2522d20ebe3d62d1b04d8c393a84627848d9ff0921c
     name: console
     type: application
     urls:
@@ -14,9 +14,9 @@ entries:
   helm-chart-test:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-12-15T11:03:03.98835-05:00"
+    created: "2023-12-15T12:22:42.440293-05:00"
     description: A Helm chart for Kubernetes
-    digest: 90293110ee9cd64c190c7380990c5de57487f332ee5b2b35266bc26b8a66eab0
+    digest: 99c9bc0afe5712e8161dcbb30917ccdb95a7b1c691904419ee7306c10af4b60f
     name: helm-chart-test
     type: application
     urls:
@@ -25,9 +25,19 @@ entries:
   saas:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-12-15T11:03:03.988724-05:00"
+    created: "2023-12-15T12:22:42.441049-05:00"
     description: A Helm chart for Kubernetes
-    digest: 11e99ee00e3bc1bd27c9ab7da09d253e0846aa8638abb9b6622a6aa28342cb75
+    digest: d27c16e60137079b6a4202b24edfd1c6ebe1241e17254e48fa939a0582be36a9
+    name: saas
+    type: application
+    urls:
+    - https://cristhianf7.github.io/helm-charts/saas-0.1.1.tgz
+    version: 0.1.1
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2023-12-15T12:22:42.440686-05:00"
+    description: A Helm chart for Kubernetes
+    digest: 374953c63b4b5458b8480b54c66703ff110d72d0015de904abcde1748ae98f03
     name: saas
     type: application
     urls:
@@ -36,12 +46,22 @@ entries:
   saas-api:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-12-15T11:03:03.990497-05:00"
+    created: "2023-12-15T12:22:42.441774-05:00"
     description: A Helm chart for Kubernetes
-    digest: bb97f1f4cc861ba81057080e3f4df232e7d7bc81b111280988142469e3348a3d
+    digest: 21605771ebfa106943725e8222cb6df56faaa6fec59a7e6dbb9bf56dc434c193
+    name: saas-api
+    type: application
+    urls:
+    - https://cristhianf7.github.io/helm-charts/saas-api-0.1.1.tgz
+    version: 0.1.1
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2023-12-15T12:22:42.441392-05:00"
+    description: A Helm chart for Kubernetes
+    digest: cf11363d11b525dd9685bd808ca7e6fa26990c227a7479fa1c79b0b715273a5a
     name: saas-api
     type: application
     urls:
     - https://cristhianf7.github.io/helm-charts/saas-api-0.1.0.tgz
     version: 0.1.0
-generated: "2023-12-15T11:03:03.987172-05:00"
+generated: "2023-12-15T12:22:42.439546-05:00"
